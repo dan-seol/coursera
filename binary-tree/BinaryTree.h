@@ -27,7 +27,7 @@ class BinaryTree {
         TreeNode* right;
         // **See note below about how this initialization list is styled.
         TreeNode(T & data) : data(data), left(nullptr), right(nullptr) { }
-    };
+   };
 
     TreeNode *root_;
 };
